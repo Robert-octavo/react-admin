@@ -38,13 +38,13 @@ const Topbar = () => {
                     )}
                 </IconButton>
                 <IconButton>
-                <NotificationsOutlinedIcon />
+                    <NotificationsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                <SettingsOutlinedIcon />
+                    <SettingsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                <PersonOutlinedIcon />
+                    <PersonOutlinedIcon />
                 </IconButton>
             </Box>
         </Box>
