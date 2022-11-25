@@ -97,7 +97,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     alt="profile-user"
                     width="100px"
                     height="100px"
-                    src={`../../assets/user.png`}
+                    src={`../public/assets/user.png`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                     />
                 </Box>
@@ -120,7 +120,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
             <Box paddingLeft={isCollapsed ? undefined : "10%"}>
                 <Item
                 title="Dashboard"
-                to="/"
+                to="/react-admin"
                 icon={<HomeOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
