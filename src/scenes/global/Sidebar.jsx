@@ -97,7 +97,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     alt="profile-user"
                     width="100px"
                     height="100px"
-                    src={`../public/assets/user.png`}
+                    src={`.././public/assets/user.png`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                     />
                 </Box>
@@ -108,7 +108,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                     fontWeight="bold"
                     sx={{ m: "10px 0 0 0" }}
                     >
-                    Ed Roh
+                    Robert
                     </Typography>
                     <Typography variant="h5" color={colors.greenAccent[500]}>
                     VP Fancy Admin
